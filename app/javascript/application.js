@@ -8,9 +8,13 @@ import Greeting from './greetings';
 
 // Fetch a random message from the API endpoint
 async function getRandomMessageAPI () {
-  return fetch('http://127.0.0.1:3000/api/random')
-          .then(response => response.json())
-          .then(messageData => messageData);
+  try {
+    const response = await fetch('http://127.0.0.1:3000/api/random');
+    const messageData = await response.json();
+    return messageData;
+  } catch (error) {
+    return {success: false, e: e.response.data.text};
+  }
 }
 
 // Create a thunk function based on the API response
@@ -26,6 +30,7 @@ const handleMessages = createSlice({
   extraReducers: (builder) => {
     builder.addCase(getRandomMessageThunk.fulfilled, (state, action) => {
       state.value = action.payload.text;
+      console.log('text');
     })
   }
 })
@@ -45,7 +50,6 @@ function App() {
     </Provider>
   )
 }
-
 
 ReactDOM.render(
   <App/>,
