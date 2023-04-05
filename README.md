@@ -1,20 +1,20 @@
 # 📗 Table of Contents
 
-- [📖 About the Project](#[project])
-  - [🛠 Built With](#built-with)
+- [� Table of Contents](#-table-of-contents)
+- [RAILS WEBPACK](#rails-webpack)
+  - [Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Setup](#setup)
-  - [Available Scripts](#available-scripts)
-- [👥 Authors](#author)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgments)
-- [📝 License](#license)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Available Scripts](#available-scripts)
+  - [Author](#author)
+  - [Future Feature](#future-feature)
+  - [Contributing](#contributing)
+  - [Show your support ](#show-your-support-)
+  - [Acknowledgments](#acknowledgments)
+  - [License](#license)
 
 
 # RAILS WEBPACK
@@ -93,4 +93,4 @@ If you like this project give it a star!
 
 ## License 
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE.md) licensed.
