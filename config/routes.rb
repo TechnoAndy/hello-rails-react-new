@@ -5,6 +5,6 @@ Rails.application.routes.draw do
   root 'root#index'
 
   namespace :api do
-    get '/random', to: 'random#index'
+    resources :greetings, only: [:index]
   end
 end
